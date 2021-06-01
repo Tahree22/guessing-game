@@ -15,7 +15,7 @@ let state = -1;
 
 //Creating an array with objects for each shape declared above
 const shapes =[
-    {shape:rectangle,name:"rectangle"},{shape:triangle, name: "triangle"}, {shape: pentagon, name:"pentagon"}, {shape: square, name:"square"}, {shape: circle, name: "circle"}, {shape: hexagon, name: "hexagon"}
+    {shape:rectangle,name:"Rectangle"},{shape:triangle, name: "Triangle"}, {shape: pentagon, name:"Pentagon"}, {shape: square, name:"Square"}, {shape: circle, name: "Circle"}, {shape: hexagon, name: "Hexagon"}
 ]
 
 //Creating function for what happens when each of the buttons are clicked

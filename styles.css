@@ -89,8 +89,16 @@ span{
 }
 
 .counter{
-    height: 50px;
-    border: 1px red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px
+}
+
+.counter p{
+    font-size: x-large;
+    font-weight: 800;
+    color: blue;
 }
 
 button{
