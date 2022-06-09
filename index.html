@@ -7,94 +7,106 @@
     <title>Guess the shape</title>
   </head>
   <body>
-    <div class="container">
-       <div class="form-box">
-        <div class="header">
-            <h2>
-                <img
-                src="./question 1.svg"
-                alt="question outline" />
+    <main>
+      <div class="container">
+        <div class="guess-cont">
+          <div class="form-box">
+            <div class="header">
+              <h2>
+                <img src="./question 1.svg" alt="question outline" />
                 <span>What Shape Am I Thinking of?</span>
-            </h2>
-        </div>
-      <form action="" >
-        <div class="shapes" id="rectangle">
-          <label for="">
-            <p><img src="./rectangle.svg" alt="" class="svg" /><span>Rectangle</span></p>
-            <input type="radio" />
-          </label>
-        </div>
-
-        <div class="shapes" id="triangle">
-          <label for="" >
-            <p>
-              <img src="./triangle-outline.svg" alt="triangle icon" /><span
-                >Triangle</span
-              >
-            </p>
-            <input type="radio" />
-          </label>
-        </div>
-
-        <div class="shapes" id="pentagon">
-          <label for="" >
-            <p>
-              <img src="./pentagon.svg" alt="pentagon icon" /><span>
-                Pentagon</span
-              >
-            </p>
-            <input type="radio" />
-          </label>
-        </div>
-
-        <div class="shapes" id="square">
-          <label for="" >
-            <p>
-              <img src="./square.svg" alt="square icon" /> <span> Square</span>
-            </p>
-            <input type="radio" />
-          </label>
-        </div>
-
-        <div class="shapes" id="circle">
-          <label for="" >
-            <p><img src="./circle.svg" alt="" /> <span>Circle</span></p>
-            <input type="radio" />
-          </label>
-        </div>
-
-        <div class="shapes" id="hexagon">
-          <label for="" >
-            <div class="new-div">
-              <p>
-                <img src="./hexagon-light.svg" alt="" /><span>Hexagon</span>
-              </p>
-              <input type="radio" />
+              </h2>
             </div>
-          </label>
-        </div>
-      </form>
-      <button id="guessBtn">GUESS!</button>
-       </div>  
-    </div>
+            <form action="">
+              <div class="shapes" id="rectangle">
+                <label for="">
+                  <p>
+                    <img src="./rectangle.svg" alt="" class="svg" /><span
+                      >Rectangle</span
+                    >
+                  </p>
+                  <input type="radio" />
+                </label>
+              </div>
 
-    <div class="container results-cont">
-      <h2>Results</h2>
-      <div class="results">
-        <div class="correct">
-          <img src="./Vector.svg" alt="" />
-          <!-- <p>Correct</p> -->
+              <div class="shapes" id="triangle">
+                <label for="">
+                  <p>
+                    <img
+                      src="./triangle-outline.svg"
+                      alt="triangle icon"
+                    /><span>Triangle</span>
+                  </p>
+                  <input type="radio" />
+                </label>
+              </div>
+
+              <div class="shapes" id="pentagon">
+                <label for="">
+                  <p>
+                    <img src="./pentagon.svg" alt="pentagon icon" /><span>
+                      Pentagon</span
+                    >
+                  </p>
+                  <input type="radio" />
+                </label>
+              </div>
+
+              <div class="shapes" id="square">
+                <label for="">
+                  <p>
+                    <img src="./square.svg" alt="square icon" />
+                    <span> Square</span>
+                  </p>
+                  <input type="radio" />
+                </label>
+              </div>
+
+              <div class="shapes" id="circle">
+                <label for="">
+                  <p><img src="./circle.svg" alt="" /> <span>Circle</span></p>
+                  <input type="radio" />
+                </label>
+              </div>
+
+              <div class="shapes" id="hexagon">
+                <label for="">
+                  <div class="new-div">
+                    <p>
+                      <img src="./hexagon-light.svg" alt="" /><span
+                        >Hexagon</span
+                      >
+                    </p>
+                    <input type="radio" />
+                  </div>
+                </label>
+              </div>
+            </form>
+            <div class="submit-btn">
+              <button id="guessBtn">GUESS!</button>
+            </div>
+          </div>
         </div>
-        <div class="wrong">
-          <img src="./Vector (1).svg" alt="" />
-          <!-- <p>Wrong</p> -->
+
+        <div class="results-cont">
+          <h3>Results</h3>
+          <div class="results">
+            <div class="correct">
+              <img src="./Vector.svg" alt="" />
+              <!-- <p>Correct</p> -->
+            </div>
+            <div class="wrong">
+              <img src="./Vector (1).svg" alt="" />
+              <!-- <p>Wrong</p> -->
+            </div>
+          </div>
+          <div class="counter">
+            <div class="correctCounter"><p id="correctText">0</p></div>
+            <div class="wrongCounter"><p id="wrongText">0</p></div>
+          </div>
         </div>
       </div>
-      <div class="counter">
-        <div class="correctCounter"><p id="correctText">0</p></div>
-        <div class="wrongCounter"><p id="wrongText">0</p></div>
-      </div>
-    </div>
+    </main>
 
     <script src="./main.js"></script>
   </body>
