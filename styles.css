@@ -184,7 +184,9 @@ button {
 /* Mobile */
 
 @media (min-width: 0) and (max-width: 600px) {
- 
+ /* main{
+   height: 100vh;
+ } */
   .container {
     display: flex;
     align-items: center;
@@ -192,11 +194,24 @@ button {
   }
 
   .guess-cont {
-    width: 80%;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
 
   h3{
     font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2{
+    margin-top: 0;
+  }
+
+  .results{
+    margin: 0;
+    padding: 0;
   }
 
   .results img{
@@ -205,13 +220,21 @@ button {
 
   .counter p{
     color: black;
+    font-size: 10px;
+  }
+
+  .counter{
+    margin: 0;
+    padding: 0;
   }
   
   .results-cont {
-    width: 60%;
-    height: 100px;
-    margin-top: 50px;
+    width: 30%;
+    height: 80px;
     background: none;
     box-shadow: none;
+    padding-top: 20px;
+    margin-bottom: 0;
+    /* display: block; */
   }
 }
