@@ -220,7 +220,7 @@ button {
 
   .counter p{
     color: black;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .counter{
@@ -233,7 +233,7 @@ button {
     height: 80px;
     background: none;
     box-shadow: none;
-    padding-top: 20px;
+    padding-top: 0;
     margin-bottom: 0;
     /* display: block; */
   }
